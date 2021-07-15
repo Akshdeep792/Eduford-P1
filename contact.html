@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1a0fa50a54.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+       <h1 style="font-size: 5vh;">Contact Us</h1>
+    </section>
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13719.423030289336!2d76.78990072236054!3d30.722455202482365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed1e101665bd%3A0x8d3e4d4c7a46f50a!2sSector%2027%2C%20Chandigarh%2C%20India!5e0!3m2!1sen!2snl!4v1626376950261!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+   
+
+        <section class="contact-us">
+
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fas fa-home"></i>     
+                        <span>
+                            <h5>XYZ Road, ABC Building</h5>
+                            <p>Chandigarh, India</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>     
+                        <span>
+                            <h5>xyz655@gmail.com</h5>
+                            <p>Email Us your Query</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>        
+                        <span>
+                            <h5>+1 645946 4398</h5>
+                            <p>Monday to Friday, 10:00AM to 6:00PM</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="email" placeholder="Enter Email Address" required>
+                        <input type="text" placeholder="Enter your subject" required>
+                        <textarea  rows="7" placeholder="Enter your message" required></textarea>
+                        <button type="submit" class="red-btn hero-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+            
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eum iusto earum, similique distinctio quos corrupti quas <br> veritatis alias dolor odio aliquid facilis sequi facere numquam voluptatibus error necessitatibus quia.</p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Copyright © 2021 Eduford Inc. All rights reserved.</p>
+    </section>
+    
+
+<script>
+
+        var na = document.getElementById("navLinks");
+
+
+
+        function showMenu(){
+            na.style.right="0"
+        }
+        function hideMenu(){
+            na.style.right="-200px";
+
+        }
+        
+
+</script>
+
+</body>
+</html>
